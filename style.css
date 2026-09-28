@@ -17,9 +17,14 @@ body{
 }
 .mtrack{
     
-    margin:0 10px;
+    margin:0 5px;
     font-weight: bold;
     font-size: 20px ;
+}
+.banner{
+
+    height: 100px;
+    width: 100%;
 }
 .shopname{
     display: flex;
@@ -106,6 +111,7 @@ body{
     border-radius: 10%;
     display: flex;
     flex-direction: row;
+    flex-basis: 18%;
     gap: 10px;
     justify-content: center;
     justify-items: center;
@@ -198,7 +204,7 @@ body{
 }
 .formal img{
     width: 100%;
-    height: 100%;   
+   height: 100%;   
 }
 .formal:hover img
 {
@@ -251,6 +257,7 @@ body{
     cursor: pointer;
 }
 
+
 .bridal{
     width: 300px;
     height: 400px;
@@ -297,4 +304,242 @@ body{
     padding: 10px;
     border-radius: 20%;
     cursor: pointer;
+}
+
+@media (max-width:769px) {
+
+.Items{
+    
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+        gap: 10px;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+
+.Jean{
+    width: 200px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.Jean:hover{
+     box-shadow: 5px 4px 4px rgba(0 0 0 );
+     width: 300px;
+
+}
+
+.Jean img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.Jean:hover img
+{
+    cursor:pointer;
+   
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height:100%;
+    padding: 10px;
+    box-sizing: border-box ;
+    transition: all 0.5s;
+}
+
+.Jean:hover .content{
+    left: 0;
+    cursor: pointer;
+}
+
+
+
+.casual{
+      width: 200px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.casual:hover{
+     box-shadow: 5px 4px 4px rgba(0 0 0 );
+      width: 300px;
+}
+.casual img{
+    width: 100%;
+    height: 100%;   
+}
+.casual:hover img
+{
+    cursor:pointer;
+    
+   
+}
+.casual:hover .content{
+    left: 0;
+    cursor: pointer;
+}
+
+
+.formal{
+  width: 200px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.formal:hover{
+     box-shadow: 5px 4px 4px rgba(0 0 0 );
+      width: 300px;
+}
+.formal img{
+    width: 100%;
+   height: 100%;  0 
+}
+.formal:hover img
+{
+    cursor:pointer;
+    
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height:100%;
+    padding: 10px;
+    box-sizing: border-box ;
+    transition: all 0.5s;
+}
+.formal:hover .content{
+    left: 0;
+    cursor: pointer;
+}
+
+
+
+.tshirt{
+      width: 200px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.tshirt:hover{
+     box-shadow: 5px 4px 4px rgba(0 0 0 );
+      width: 300px;
+}
+.tshirt img{
+    width: 100%;
+    height: 100%;   
+}
+.tshirt:hover img
+{
+    cursor:pointer;
+    
+   
+}
+
+.tshirt:hover .content{
+    left: 0;
+    cursor: pointer;
+}
+
+
+.bridal{  
+    width: 200px;
+    height: 300px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+}
+.bridal:hover{
+     box-shadow: 5px 4px 4px rgba(0 0 0 );
+      width: 300px;
+}
+.bridal img{
+    width: 100%;
+    height: 100%;   
+}
+.bridal:hover img
+{
+    cursor:pointer;
+    
+   
+}
+
+.bridal:hover .content{
+    left: 0;
+    cursor: pointer;
+}
+
+.button{
+   margin-top: 40%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+
+.but{
+    width: 90px;
+    color: #d0fff6;
+    font-weight: bold;
+    background-color: rgb(70, 12, 12);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: #333333  ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.cls{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 10px;
+    
+}
+
+.cls button{
+    width: 90px;
+    color: #FFFDD0;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
 }
